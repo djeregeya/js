@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+  <body>
+
+    <header>
+        
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+      </nav>
+
+      <div class="text">
+        <h2>comfy</h2>
+      </div>
+
+      <div class="icons"> 
+        <a href="#" class="bars"><i class="fas fa-bars"></i></a>
+         <a href="#" class="btn" onclick="openBlock()"><i class="fas fa-user"></i></a>
+         <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        
+      </div>
+
+  </header>
+
+
+
+  
+
+<div class="container">
+  
+  <div class="login">
+    <img src="user.png" alt="" class="user">
+    <h2>login</h2>
+    <form action="#">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter your name">
+      <label for="Password">Password</label>
+      <input type="text" id="username" placeholder="Enter your password">
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</div>
+
+
+
+    <!-- products -->
+    <section class="products">
+      <!-- filters -->
+      <div class="filters-container">
+        <!-- search -->
+        <form class="input-form">
+          <input type="text" class="search-input" placeholder="search..." />
+        </form>
+        <!-- categories -->
+        <h5>Company</h5>
+        <article class="companies">
+          <button class="company-btn">all</button>
+          <button class="company-btn">ikea</button>
+          <button class="company-btn">marcos</button>
+        </article>
+      </div>
+      <!-- products -->
+      <div class="products-container">
+        <!-- single product -->
+        <article class="product">
+          <!-- <img
+            src="https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg"
+            class="product-img img"
+            alt=""
+          />
+          <footer>
+            <h5 class="product-name">high-back bench</h5>
+            <span class="product-price">$9.99</span>
+          </footer> -->
+        </article>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
